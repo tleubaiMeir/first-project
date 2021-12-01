@@ -1,0 +1,29 @@
+<h1>count : {{count}}</h1>
+<button (click)="countPLus()">click me</button>
+<div>
+  <button (click)="Buy()">Plus speed -10</button>
+</div>
+
+
+
+
+
+<div>
+  <h2>Задание 1 .Полиндром</h2>
+  <input type="text" [(ngModel)]="string">
+  <button (click)="checkPalindrome()">Проверить</button>
+  <p>Результат : {{Polindromme}}</p>
+</div>
+
+<div>
+  <h2>Задание 2 .Гласные</h2>
+  <input type="text" [(ngModel)]="Vowelstring">
+  <button (click)="checkVowels()">Проверка на Гласные</button>
+  <p>Гласные: {{Vowels}}</p>
+</div>
+
+<div>
+  <h2>Задание 3 .Foobar</h2>
+  <input type="number" [(ngModel)]="maxNum">
+  <button (click)="FooBar()">Запуск</button>
+</div>
